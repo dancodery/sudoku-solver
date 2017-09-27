@@ -8,3 +8,5 @@
 5. `conda info` to verify you installation was successful
 6. Create a conda environment from the file `conda env create -f aind-environment-macos.yml`
 7. Activate this environment `source activate aind`
+8. Start `python sudoku-solver.py`
+9. ? Download and install http://www.pygame.org/download.shtml if the graphical user interface is not starting on its own.
