@@ -63,10 +63,12 @@ From this we conclude that these digits can be deleted from the possibilities in
 
 ### Only Choice
 
-This looks for digits in a cell which occur once in a unit. So if you have one column and you take a look at the possibility lists of the cells in that column. You see that the digit one just occurs in the C row. So you can solve this cell and take this number as the only possibility.
+This looks for digits in the probability list of a cell which occur once within a unit. So if you have one column and you take a look at the possibility lists of the cells in that column. Let's say, you discover that the digit '1' just occurs in the C row. So you can solve this cell and take this number as the only possibility.
 
 
 
 The udacity course is based on http://norvig.com/sudoku.html
+
+Please give me a star if you like this repo ;=)
 
 Copyright 2017 **© Daniel Gockel**
