@@ -16,4 +16,5 @@
 ## Usage
 
 * `python sudoku-solver.py` will load the sudoku solver with an easy sudoku from the samples
-* `python sudoku-solver.py ''4.....8.5.3..........7......2.....6.....8.4......1.......6.3.7.5..2.....1.4......''` is your way of filling in your own sudoku which will be solved. It requires 81 characters inside of single quotation marks
+* `python sudoku-solver.py '4.....8.5.3..........7......2.....6.....8.4......1.......6.3.7.5..2.....1.4......'` is your way of filling in your own sudoku which will be solved. It requires 81 characters inside of single quotation marks.
+* `python sudoku-solver.py --diag '2.............62....1....7...6..8...3...9...7...6..4...4....8....52.............3'` is solving your feeded in sudoku. But will also check the diagonal lines inside of the given sudoku. So from left-top to right-bottom and from left-bottom to right-top.
