@@ -30,10 +30,12 @@ So on the highest level, Depth-first search means that the program tries out and
 It is trial and error.
 Imagine you have a sudoku and it is not solved yet. You can't make any progress anymore, because the underlaying techniques (eliminate, naked twins, only choice) make no progress anymore. But you have one certain cell with two possible digits. It makes sense to try out one of these two digits to see what impact it has on further predictions and if the sudoku can finally be solved. Thus if you can't go further anymore because it contradicts itself on further steps, you know that in this first cell there must be the second digit filled in.
 
-The underlaying level **'constraint propagation'** is executed until it makes no progress anymore. It consists of 1. Eliminate, 2. Naked Twins and 3. Only Choice
+The underlaying level **'constraint propagation'** is executed until it makes no progress anymore. It consists of 1. Eliminate, 2. Naked Twins and 3. Only Choice.
 
 A sudoku consists of 9 rows and 9 columns. We label the rows from A-I and the columns from 1-9.
 The cell D5 means the cell in the fifth column and the fourth row.
+
+A **unit** is one block of 9 digits which must contain each digit from 1-9 once.
 
 ### Eliminate
 
