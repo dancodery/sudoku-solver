@@ -50,11 +50,15 @@ And optional 2 diagonal units.
 
 
 The elimination function looks for single digits which are contained in its peers as a possibility.
-A peer are neighbors in any unit.
+Peers are neighbors in any unit.
 
 So if you have one row and in that row there is a cell with a single digit, you know that this digit can be deleted from the possibility list of all other cells.
 
 ### Naked Twins
+
+This function searches for two of the same digits in two cells in one unit. If this sounds too complicated look at the picture below.
+
+<img src='images/naked_twins.png'>
 
 
 The udacity course is based on http://norvig.com/sudoku.html
