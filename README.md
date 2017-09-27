@@ -35,7 +35,9 @@ The underlaying level **'constraint propagation'** is executed until it makes no
 A sudoku consists of 9 rows and 9 columns. We label the rows from A-I and the columns from 1-9.
 The cell D5 means the cell in the fifth column and the fourth row.
 
-A **unit** is one block of 9 digits which must contain each digit from 1-9 once.
+A **unit** is one block of 9 digits which must contain each digit from 1-9 once. 
+A sudoku has 9 row units. The first one is A1, A2, A3, A4, A5, A6, A7, A8, A9.
+9 col units. The first one is A1, B1, C1, D1, E1, F1, G1, H1, I1.
 
 ### Eliminate
 
