@@ -32,6 +32,8 @@ Imagine you have a sudoku and it is not solved yet. You can't make any progress 
 
 The underlaying level **'constraint propagation'** is executed until it makes no progress anymore. It consists of 1. Eliminate, 2. Naked Twins and 3. Only Choice.
 
+<img src='images/sudoku.png'>
+
 A sudoku consists of 9 rows and 9 columns. We label the rows from A-I and the columns from 1-9.
 The cell D5 means the cell in the fifth column and the fourth row.
 
