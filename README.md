@@ -12,3 +12,8 @@
 9. ? Download and install http://www.pygame.org/download.shtml if the graphical user interface is not starting on its own.
 
 <img src='images/screenshot.png'>
+
+## Usage
+
+* `python sudoku-solver.py` will load the sudoku solver with an easy sudoku from the samples
+* `python sudoku-solver.py ''4.....8.5.3..........7......2.....6.....8.4......1.......6.3.7.5..2.....1.4......''` is your way of filling in your own sudoku which will be solved. It requires 81 characters inside of single quotation marks
