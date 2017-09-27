@@ -24,10 +24,14 @@
 
 The program is based on the Udacity.com Nanodegree Program 'Artificial Intelligence'.
 
-In the highest level of solving the sudoku it uses depth-first search and propagation to try all possible values. 
+In the highest level of solving the sudoku it uses **depth-first search and propagation** to try all possible values. 
 But it is not just brute forcing all possible values. It begins to be more sophisticated in the lower levels. In the lower levels the program uses constraint propagation techniques to solve cells inside the sudoku.
 So on the highest level, Depth-first search means that the program tries out and is coming back from guesses made by the program.
 It is trial and error.
-Imagine you have a sudoku and it is not solved yet. You can't make any progress anymore, because the underlaying techniques (eliminate, naked twins, only choice) make no progress anymore. But you have one certain cell with two possible digits. It makes sense to try out one of these two digits to see what impact it has on further predictions and if the sudoku can finally be solved. Thus if you can't go any further anymore because it contradicts itself on further steps, you know that in this first cell there must be the second digit typed in.
+Imagine you have a sudoku and it is not solved yet. You can't make any progress anymore, because the underlaying techniques (eliminate, naked twins, only choice) make no progress anymore. But you have one certain cell with two possible digits. It makes sense to try out one of these two digits to see what impact it has on further predictions and if the sudoku can finally be solved. Thus if you can't go further anymore because it contradicts itself on further steps, you know that in this first cell there must be the second digit filled in.
+
+The underlaying level **'constraint propagation'** is executed until it makes no progress anymore. It consists of 1. Eliminate, 2. Naked Twins and 3. Only Choice
+
+### Eliminate
 
 Copyright 2017 **© Daniel Gockel**
