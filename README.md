@@ -46,6 +46,10 @@ A sudoku has 9 row units. The first one is A1, A2, A3, A4, A5, A6, A7, A8, A9.
 The elimination function looks for single digits which are contained in its peers as a possibility.
 A peer are neighbors in any unit.
 
+So if you have one row and in that row there is a cell with a single digit, you know that this digit can be deleted from the possibility list of all other cells.
+
+### Naked Twins
+
 
 The udacity course is based on http://norvig.com/sudoku.html
 
