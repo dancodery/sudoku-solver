@@ -21,3 +21,8 @@
 * `python sudoku-solver.py -h` is showing the help
 
 ## Documentation
+
+The program is based on the Udacity.com Nanodegree Program 'Artificial Intelligence'.
+
+In the highest level of solving the sudoku it uses depth-first search and propagation to try all possible values. 
+But it is not just brute forcing all possible values. It begins to be more sophisticated in the lower levels.
