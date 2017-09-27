@@ -27,4 +27,4 @@ The program is based on the Udacity.com Nanodegree Program 'Artificial Intellige
 In the highest level of solving the sudoku it uses depth-first search and propagation to try all possible values. 
 But it is not just brute forcing all possible values. It begins to be more sophisticated in the lower levels.
 
-Copyright 2017 © Daniel Gockel
+Copyright **2017 © Daniel Gockel**
