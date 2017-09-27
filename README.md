@@ -57,6 +57,11 @@ So if you have one row and in that row there is a cell with a single digit, you 
 ### Naked Twins
 
 This function searches for two of the same digits in two cells in one unit. If this sounds too complicated look at the picture below.
+From this we conclude that these digits can be deleted from the possibilities in the other cells.
+
+### Only Choice
+
+This looks for digits in a cell which occur once in a unit. So if you have one column and you take a look at the possibility lists of the cells in that column. You see that the digit one just occurs in the C row. So you can solve this cell and take this number as the only possibility.
 
 <img src='images/naked_twins.png'>
 
